@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #34d399;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+body {
+  font-family: "PT Sans Caption", sans-serif;
+  color: var(--primary-color);
+}
+
+hr {
+  border: solid;
+  border-color: var(--primary-color);
+}
